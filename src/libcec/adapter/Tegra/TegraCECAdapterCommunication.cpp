@@ -41,6 +41,7 @@
 #include "p8-platform/sockets/cdevsocket.h"
 #include "p8-platform/util/StdString.h"
 #include "p8-platform/util/buffer.h"
+#include "platform/util/edid.h"
 
 using namespace std;
 using namespace CEC;
