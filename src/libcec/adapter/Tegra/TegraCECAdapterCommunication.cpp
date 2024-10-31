@@ -56,7 +56,7 @@ TegraCECAdapterCommunication::TegraCECAdapterCommunication(IAdapterCommunication
     m_bLogicalAddressChanged(false)
 {
   CLockObject lock(m_mutex);
-  LIB_CEC->AddLog(CEC_LOG_ERROR, "%s: Creating Adaptor", __func__);
+  LIB_CEC->AddLog(CEC_LOG_NOTICE, "%s: Creating Adaptor", __func__);
   m_iNextMessage = 0;
   m_logicalAddresses.Clear();
 }
